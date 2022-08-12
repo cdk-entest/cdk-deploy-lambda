@@ -14,8 +14,9 @@ This note goes through several way to deploy a lambda function in CDK
 - Lambda function with dependencies
 - NodeJs function with dependencies
 - Deploy lambda via ECR when dependencies is more than 50MB
+- [GitHub](https://github.com/entest-hai/cdk-deploy-lambda)
 
-## Python code inline
+## Code inline
 
 this most simple one is a lambda function with inline code
 
@@ -32,7 +33,7 @@ new aws_lambda.Function(this, "LambdaCodeInline", {
 });
 ```
 
-## Python Lambda with Dependencies
+## Python Lambda
 
 install dependencies in a target directory
 
@@ -60,7 +61,7 @@ please take note the PYTHONPATH, it tells lambda where to find the dependencies.
 print(sys.path)
 ```
 
-## NodeJS Lambda with Dependencies
+## NodeJS Lambda
 
 this is package.json
 
