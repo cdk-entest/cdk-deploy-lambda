@@ -5,6 +5,7 @@ node_modules
 test
 **/__pycache__
 package-lock.json
+**/package
 
 # CDK asset staging directory
 .cdk.staging
