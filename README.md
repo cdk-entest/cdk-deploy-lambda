@@ -1,3 +1,11 @@
+---
+title: different ways to deploy a lambda in cdk
+description: explore different ways to deploy lambda in cdk
+author: haimtran
+publishedDate: 08/12/2022
+date: 2022-08-12
+---
+
 ## Introduction
 
 This note goes through several way to deploy a lambda function in CDK
